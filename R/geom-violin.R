@@ -116,7 +116,8 @@ geom_violin <- function(mapping = NULL, data = NULL,
     deprecate(
       "4.0.0",
       what = "geom_violin(draw_quantiles)",
-      with = "geom_violin(quantiles.linetype)"
+      with = "geom_violin(quantiles.linetype)",
+      details = "Quantile distribution can be changed with geom_violin(quantiles)"
     )
     check_numeric(draw_quantiles)
 
